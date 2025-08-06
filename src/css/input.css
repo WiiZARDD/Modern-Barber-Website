@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply text-lg leading-relaxed;
+  }
+  
+  h2, h3, h4 {
+    @apply font-medium;
+  }
+  
+  .text-body {
+    @apply text-lg font-normal;
+  }
+  
+  .text-body-medium {
+    @apply text-lg font-medium;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-barber-dark text-white px-8 py-3 hover:bg-gray-800 transition-all duration-300 font-medium;
+    border-radius: 8px;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-barber-dark text-barber-dark px-8 py-3 hover:bg-barber-dark hover:text-white transition-all duration-300 font-medium;
+    border-radius: 8px;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
