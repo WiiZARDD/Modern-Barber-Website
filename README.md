@@ -14,7 +14,7 @@ A modern, responsive website template for professional barber services featuring
 - **Security**: Helmet.js for security headers and CSP configuration
 
 <p align="center">
-  <img src="https://i.imgur.com/U4mVG6C.jpeg" alt="logo" width="1000"/>
+  <img src="https://i.imgur.com/zSLsexS.jpeg" alt="logo" width="1000"/>
 </p>
 
 ## Technology Stack
